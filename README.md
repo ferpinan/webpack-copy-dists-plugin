@@ -1,0 +1,1 @@
+# webpack-copy-dists-plugin
