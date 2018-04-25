@@ -1,0 +1,27 @@
+{
+  "name": "webpack-copy-dists-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferpinan/webpack-copy-dists-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "copy",
+    "dist"
+  ],
+  "author": "@ferpinan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferpinan/webpack-copy-dists-plugin/issues"
+  },
+  "homepage": "https://github.com/ferpinan/webpack-copy-dists-plugin#readme",
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
