@@ -2,7 +2,7 @@
 
 const fs = require('fs-extra');
 
-class PrependFile {
+class CopyDists {
     constructor(from, to) {
         this.from = from;
         this.to = to;
@@ -16,7 +16,6 @@ class PrependFile {
 
                     for(var i in this.to){
                         var filePathTo = this.to[i] + "/" + file;
-                        var fileStat = fs.lstatSync(filePathFrom);
 
                         fs.copy(filePathFrom, filePathTo)
                         // .then(() => console.log('success!'))
@@ -28,4 +27,4 @@ class PrependFile {
     }
 }
 
-module.exports = PrependFile;
+module.exports = CopyDists;
